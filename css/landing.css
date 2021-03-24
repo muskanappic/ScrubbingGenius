@@ -1,0 +1,289 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* --------------- */
+/* NAVIGATION */
+/* --------------- */
+header {
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-container {
+    flex-basis: 35%;
+    margin-left: 54px;
+}
+
+.logo-container img {
+	display: block;
+	height: auto;
+}
+
+.main-nav {
+	list-style-type: none;
+	display: flex;
+	/*flex-basis: 23%;*/
+    margin-top: 10px;
+}
+
+.main-nav li {
+	flex-grow: 1;
+	text-align: center;
+    margin-left: 58px;
+}
+
+
+a.signing {
+    color: #35c2ec;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a.logins {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button.joins {
+    margin-left: 22px;
+}
+
+.btn-one {
+    display: flex;
+    flex-basis: 44%;
+}
+
+button.joins {
+    margin-left: 22px;
+    border: 1px solid #35c2ec;
+    color: #35c2ec;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid #35c2ec;
+    width: 156px;
+    height: 33px;
+    outline: none;
+}
+.col-md-6.symbosis img {
+    width: 103%;
+    margin-left: 25px;
+    position: relative;
+    top: -34px;
+}
+img.scrub-img {
+    width: 38%;
+}
+section.cleaner-sec {
+    background: #f9f8f4;
+    height: 433px;
+}
+.col-md-6.symbosis {
+    padding: 35px 0px;
+}
+
+.col-md-6.review-heads {
+    margin-left: -96px;
+}
+
+h4.heads {
+    font-size: 43px;
+    font-weight: 900;
+    position: relative;
+    top: 123px;
+    left: -3px;
+}
+.imgesround-1 img {
+    position: relative;
+    left: 60px;
+    top: 20px;
+    width: 24%;
+}
+
+span.span-bboks {
+    color: #35c2ec;
+}
+
+button.btn-two {
+    width: 210px;
+    height: 36px;
+    background: white;
+    border: none;
+    color: black;
+    font-weight: 900;
+    text-align: left;
+    padding-left: 13px;
+    outline: none;
+}
+
+button.btn-three {
+    width: 128px;
+    height: 36px;
+}
+
+button.btn-three {
+    width: 152px;
+    height: 36px;
+    background: #35c2ec;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.col-md-4.round-circles {
+    width: 185px;
+    height: 185px;
+    background: #f9f8f4;
+    border-radius: 50%;
+    border: 1px solid #35c2ec;
+    margin-left: 174px;
+}
+
+.round-circles {
+    width: 185px;
+    height: 185px;
+    background: #f9f8f4;
+    border-radius: 50%;
+    border: 1px solid #35c2ec;
+    margin-left: 174px;
+}
+/*section.circling-section {
+    padding: 99px 0px;
+}*/
+
+/*.hires-head {
+    padding: 36% 8%;
+    margin-left: 12px;
+}*/
+
+.imgesround img {
+    position: relative;
+    left: 54px;
+    top: 26px;
+    width: 34%;
+}
+.hires-head h5 {
+    font-weight: 600;
+}
+
+span.span-1 {
+    font-size: 13px;
+}
+
+span.span-2 {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgesround1 img {
+    position: relative;
+    left: 81px;
+    top: 25px;
+    width: 24%;
+}
+
+span.span-3 {
+    font-size: 13px;
+    padding-left: 16px;
+}
+
+span.span-4 {
+    font-size: 13px;
+    position: relative;
+    left: 19px;
+    top: 9px;
+}
+
+.york-btn {
+    position: relative;
+    top: 121px;
+    left: -3px;
+}
+span.local-span {
+    font-size: 11px !important;
+    font-weight: 900;
+    position: absolute;
+    top: 95px;
+    left: 7px;
+    text-align: center;
+}
+span.local-span2 {
+    font-size: 11px !important;
+    font-weight: 900;
+    position: absolute;
+    top: 95px;
+    left: 30px;
+    text-align: center;
+}
+span.local-span1 {
+    font-size: 11px !important;
+    font-weight: 900;
+    position: absolute;
+    top: 95px;
+    left: 3px;
+    text-align: center;
+}
+
+section.circling-section {
+    padding-bottom: 30px;
+}
+.dot-img img {
+    position: relative;
+    left: 1163px;
+    top: -298px;
+    width: 11%;
+}
+/* Medium devices (landscape tablets, 768px and up)*/
+@media screen and (max-width: 750px) {
+    .col-md-6.symbosis img {
+        display: none !important;
+    }
+    
+    h4.heads {
+        font-size: 40px;
+        font-weight: 700;
+        position: relative;
+        top: -10px;
+        left: 3px;
+    }
+
+    .york-btn {
+        position: relative;
+        top: 6px;
+        left: 7px;
+    }
+    .btn-one {
+        display: flex;
+        flex-basis: auto; 
+    }
+    .dot-img img {
+        position: relative;
+        right: -810px;
+        top: -132px;
+        width: 17%;
+    }
+
+    .col-md-4.round-circles {
+        width: 250;
+        height: 250;
+        background: #f9f8f4;
+        border-radius: 50%;
+        border: 1px solid #35c2ec;
+        margin-left: 237px;
+        margin-top: 98px;
+    }
+}
