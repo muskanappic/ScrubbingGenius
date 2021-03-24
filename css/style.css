@@ -99,6 +99,7 @@ p.eva {
     margin-left: 26px;
 }
 
+
 i.fa.fa-star {
     position: relative;
     left: 20px;
@@ -168,6 +169,18 @@ button.btn2.btn-default {
 .btns-two {
     margin-top: 16px;
     
+}
+button.btn11 {
+    width: 127px;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    background: #35c2ec;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 13px;
 }
 section.portls {
     background: #f9f8f4;
@@ -278,13 +291,23 @@ section.portls {
     display: flex;
     padding: 10px 27px;
 }
-
+button.btn21.btn-default {
+    width: 260px;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    background: #35c2ec;
+    font-size: 16px;
+    font-weight: bold;
+}
 @media only screen and (max-width: 600px) {
-    .media {
+    /*.media {
       
         display: unset !important;
        
-    }
+    }*/
     section.portls {
         padding: 55px 0px !important;
     }
@@ -294,3 +317,153 @@ section.portls {
     }
   
   }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .logo-container img {
+        display: block;
+        height: auto;
+        width: 83%;
+    }
+
+    button.joins {
+        margin-left: 22px;
+        border: 1px solid #35c2ec;
+        color: #35c2ec;
+        background-color: white;
+        border-radius: 25px;
+        border: 2px solid #35c2ec;
+        width: 134px;
+        height: 24px;
+        outline: none;
+        font-size: 13px;
+    }
+
+    ul.portal-list li {
+        list-style: none;
+         margin-right: 8px;
+        color: white;
+        font-weight: 300;
+        font-size: 6px;
+    }
+    .container1 {
+        display: flex;
+        justify-content: space-around;
+        background-color: #35c2ec;
+        height: 53px;
+        padding-top: 10px;
+    }
+    .cleaner h4 {
+        color: white;
+        font-weight: 900;
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .cleaners h5 {
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: none !important; 
+    }
+
+    i.fa.fa-star {
+        position: relative;
+        left: 7px;
+        color: #fdd043;
+    }
+    p.eva {
+        font-size: 11px;
+        color: #626262;
+        font-weight: 900;
+        margin-left: 22px;
+    }
+    img.col-sm-2.p-5.p-sm-0.pr-sm-3 {
+        margin: 0px !important; 
+    }
+    .media-body {
+        width: 100%;
+    }
+    p.checks {
+        font-size: 10px;
+        font-weight: bold;
+        color: #6f6f6e;
+        margin-left: 21px;
+    }
+    i.fa.fa-check {
+        display: inline-flex;
+        position: relative;
+        left: 10px;
+        color: #35c2ec;
+        font-size: 16px;
+        top: 2px;
+    }
+    p.checks1 {
+        font-size: 9px;
+        font-weight: 300;
+        color: #6f6f6e;
+        margin-left: 19px;
+    }
+    .btns-ones {
+        margin-left: 18px;
+    }
+    button.btn1 {
+        width: 134px;
+        height: 38px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        color: #ffffff;
+        background: #35c2ec;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    button.btn2.btn-default {
+        width: 138px;
+        height: 41px;
+        outline: none;
+        border: none;
+        color: white;
+        background: #35c2ec;
+        font-size: 13px;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-left: -2px;
+        margin-top: 10px;
+    }
+   
+    .portls:before{
+        display: none;
+    }
+    caption {
+        background: white;
+        height: 3em;
+        line-height: 3em;
+        font-size: 17px !important;
+        padding: 12px 20px;
+        /* box-shadow: 3px 0 2px black; */
+        color: #060606;
+    }
+
+    button.btn11 {
+        width: 127px;
+        height: 45px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        color: #ffffff;
+        background: #35c2ec;
+        font-size: 12px;
+        font-weight: bold;
+        margin-right: 13px;
+    }
+    button.btn21.btn-default {
+        width: 260px;
+        height: 45px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        color: #ffffff;
+        background: #35c2ec;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}

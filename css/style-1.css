@@ -274,6 +274,23 @@ button.msgBt2{
     margin-left: 15px;
 }
 
+i.fas.fa-cabinet-filing {
+    position: relative;
+    left: -8px;
+    font-size: 11px;
+}
+i.fas.fa-dryer-alt {
+    position: relative;
+    left: -8px;
+    font-size: 12px;
+}
+
+img.oven {
+    width: 8%;
+    position: relative;
+    left: -8px;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
     header {
@@ -349,7 +366,7 @@ button.msgBt2{
         height: 33px;
         border-radius: 5px;
         color: #2a2a2a;
-        background: #d5d5d5;
+        background: #f9f8f4;
         outline: none;
         border: 1px solid #d5d5d5;
         padding-left: 12px;
@@ -367,8 +384,5 @@ button.msgBt2{
         font-size: 13px;
         font-weight: bold;
     }
-    img.plans-details {
-       display: none;
-    }
-    
+   
 }
